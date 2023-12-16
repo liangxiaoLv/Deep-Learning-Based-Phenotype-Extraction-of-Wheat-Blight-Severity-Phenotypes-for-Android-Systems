@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2"
+        android:background="@drawable/wheat_pattern" />
+
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="266dp"
+        android:layout_height="362dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/wheat" />
+
+    <Button
+        android:id="@+id/start_app"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="开始检测"
+        android:textSize="16sp"
+        android:background="@drawable/button_bg"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/image_view"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/end_app"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="退出程序"
+        android:textSize="16sp"
+        android:background="@drawable/button_bg"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/start_app"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

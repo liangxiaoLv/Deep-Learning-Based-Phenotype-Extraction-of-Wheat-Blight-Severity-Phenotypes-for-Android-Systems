@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="小麦赤霉病检测"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="#556B2F"
+        android:layout_alignParentTop="true"/>
+
+    <ImageView
+        android:id="@+id/image_view_detect"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:src="@drawable/map1"
+        android:scaleType="centerCrop"/>
+
+    <Button
+        android:id="@+id/button_jinrujiance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检测"
+        android:background="@drawable/button_bg"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/button_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="读取数据"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="退出检测"
+        android:layout_margin="16dp"/>
+
+</LinearLayout>
